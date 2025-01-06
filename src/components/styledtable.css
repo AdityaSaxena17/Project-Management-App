@@ -1,0 +1,71 @@
+.styled-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 18px;
+  text-align: left;
+  width: 80%;
+}
+
+.styled-table thead tr {
+  text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 12px 15px;
+  border: 1px solid #dddddd;
+}
+
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+/* .styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+} */
+
+.completed-tasks thead {
+  background-color: green;
+  color: #ffffff;
+}
+
+.pending-tasks thead {
+  background-color: darkorange;
+  color: #ffffff;
+}
+
+.late-tasks thead {
+  background-color: red;
+  color: #ffffff;
+}
+
+/* Scrollbar styling */
+.scrollable-table {
+  max-height: 450px; /* Adjust height as needed */
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.scrollable-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.scrollable-table th,
+.scrollable-table td {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+}
+
+.scrollable-table tbody tr:nth-of-type(even) {
+  background-color: #f9f9f9;
+}
+
+.members-table thead {
+  background-color: #FACC15;
+  color: #000000; 
+}
